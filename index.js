@@ -10,7 +10,7 @@ server.use(
   cors({
     origin: 'https://test-rtk.vercel.app' // Replace with your frontend's URL
   })
-)
+) 
 
 server.use(middlewares)
 server.use(router)
